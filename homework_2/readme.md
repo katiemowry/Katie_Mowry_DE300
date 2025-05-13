@@ -8,7 +8,7 @@ Question 2: An SQL query is used to create a summary of the procedures performed
 Question 3: An SQL query is used to display the patient, ethnicity, gender, and ICU length of stay. Then, Python is used to calculate the mean, standard deviation, and median for gender and ethnicity. Boxplots are generated for both gender and ethnicity to visualize the distributions. Finally, the resulting table is printed and exported for Part II.  
 
 PART II
-The DATA ENG Homework 2 Part II.ipynb file is run on the EC2 instance within the local port. A Docker container (from the ‘Dockerfile’) was launched using the following command: 
+The DATA ENG Homework 2 Part II.ipynb file is run on the EC2 instance within the local port. A Docker container (from ‘Dockerfile’) was launched using the following command: 
 docker run -p 8888:8888 \
   -v /home/ubuntu/.aws:/home/jovyan/.aws \
   -v /home/ubuntu/Katie_Mowry_DE300:/home/jovyan/work \
