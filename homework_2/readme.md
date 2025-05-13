@@ -14,4 +14,4 @@ docker run -p 8888:8888 \
   -v /home/ubuntu/Katie_Mowry_DE300:/home/jovyan/work \
   my_jupyter
 
-After launching the Docker container, a boto3 session is created and connected to Cassandra. A new keyspace is created, verified, and connected. Cassandra tables are created and the corresponding data is inserted from the exported csv files from Part I. Python queries are used to reproduce the analysis from Part I, and all printed results match the output from Part I.
+After launching the Docker container, a boto3 session is created and connected to Cassandra. A new keyspace is created, verified, and connected. Cassandra tables are created and the corresponding data is inserted from the exported csv files from Part I. These tables aren't included, but can be downloaded from Part I and uploaded for use in Part II. Python queries are used to reproduce the analysis from Part I, and all printed results match the output from Part I.
